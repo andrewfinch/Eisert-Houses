@@ -93,7 +93,7 @@ Fiscal Year,Client,Job_Type,Repeat_Customer,Full_Address,Latitude,Longitude,Redf
 1972,Erwin G Blake,,False,"34000 SW 187th , Aloha, OR",45.4771288,-122.8707268,https://www.redfin.com/OR/Beaverton/2545-SW-187th-Ave-97003/home/25817477,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/374/genMid.22536374_1.jpg
 1972,Donald Calson,,False,"5330 SW Westdale Dr , Portland, OR",45.49633,-122.7319858,https://www.redfin.com/OR/Portland/5330-SW-Westdale-Dr-97221/home/26600726,https://maps.googleapis.com/maps/api/streetview?channel=mb-ldp-publicrecord&location=5330+SW+Westdale+Dr%2C+Portland%2C+OR+97221&size=1072x488&source=outdoor&client=gme-redfin&signature=kF_QkPv_9uLMAYwn0ukl6aKV4_M=
 1972,Richard Kennedy,,False,,,,,
-1972,Rod Juhnke,Addition,False,"11604 SW Lancaster, Portland, OR",45.4419056,-122.6954253,https://www.redfin.com/OR/Portland/11604-SW-Lancaster-Rd-97219/home/26436287,https://maps.googleapis.com/maps/api/streetview?channel=mb-pdp-publicrecord&location=11604+SW+Lancaster+Rd%2C+Portland%2C+OR+97219&size=1072x488&source=outdoor&client=gme-redfin&signature=iGMDPGgr_ucqZvH8ten4Q0He3_k=
+1972,Rod Juhnke,Addition,False,"11604 SW Lancaster, Portland, OR",45.4419056,-122.6954253,,
 1972,Frank Newell,,False,"7205 SE Hogan Rd, Gresham, OR",45.4708004,-122.4158611,,
 1972,Tom Posey,,False,,,,,
 1972,Russ Sacco,,False,"7326 SW Brier Place, Portland, OR",45.4715742,-122.6780495,,
