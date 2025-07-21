@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eisert Grandpa Houses Map</title>
+  <!-- Mapbox GL JS -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.16.0/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.16.0/mapbox-gl.js"></script>
+  <!-- PapaParse for CSV -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <style>
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    .mapboxgl-popup {
+      max-width: 300px;
+      font: 12px/18px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script>
+    /* ===== CONFIG ===== */
+    // Replace with your public Mapbox access token (OK to expose on GitHub Pages)
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZmluY2gzMDAwIiwiYSI6ImNtN3R1ZWVqZTB0MGEya24zYnkxdnBoMXMifQ.pU70reTvKPD97_MjvHuEiw';
+    const CSV_PATH = '../grandpa house csv final.csv'; // adjust if you move the file into docs/
+
+    /* ===== INIT MAP ===== */
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [-122.67, 45.52], // initial center on Portland
+      zoom: 10,
+    });
+
+    map.addControl(new mapboxgl.NavigationControl());
+
+    /* ===== LOAD CSV & ADD MARKERS ===== */
+    Papa.parse(encodeURI(CSV_PATH), {
+      download: true,
+      header: true,
+      dynamicTyping: true,
+      complete: function(results) {
+        const rows = results.data;
+        const groups = {};
+        const bounds = new mapboxgl.LngLatBounds();
+
+        rows.forEach(row => {
+          const lat = parseFloat(row.Latitude);
+          const lon = parseFloat(row.Longitude);
+          if (!isFinite(lat) || !isFinite(lon)) return; // skip rows without coords
+
+          const client = row.Client || 'Unknown';
+          if (!groups[client]) groups[client] = [];
+          groups[client].push(row);
+        });
+
+        Object.values(groups).forEach(records => {
+          const primary = records[0];
+          const lat = parseFloat(primary.Latitude);
+          const lon = parseFloat(primary.Longitude);
+
+          bounds.extend([lon, lat]);
+
+          let popupHtml = `<strong>${primary.Client}</strong><br/>`;
+          popupHtml += `<div>Fiscal Year: ${primary['Fiscal Year']}</div>`;
+          if (primary.Job_Type) popupHtml += `<div>Job Type: ${primary.Job_Type}</div>`;
+          popupHtml += `<div>${primary.Full_Address}</div>`;
+
+          if (records.length > 1) {
+            popupHtml += '<hr/><em>Other Occurrences:</em><ul>';
+            records.slice(1).forEach(r => {
+              popupHtml += `<li>${r['Fiscal Year']} – ${r.Job_Type || ''} – ${r.Full_Address}</li>`;
+            });
+            popupHtml += '</ul>';
+          }
+
+          new mapboxgl.Marker()
+            .setLngLat([lon, lat])
+            .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(popupHtml))
+            .addTo(map);
+        });
+
+        // Fit map to all markers if at least one exists
+        if (!bounds.isEmpty()) {
+          map.fitBounds(bounds, { padding: 40 });
+        }
+      }
+    });
+  </script>
+</body>
+</html> 
