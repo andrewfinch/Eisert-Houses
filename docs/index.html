@@ -57,7 +57,8 @@
     #sidebar.open { transform: translateX(0); }
     #notes { margin-bottom: 10px; }
     #propList { list-style: none; padding: 0; margin: 0; }
-    #propList li { margin-bottom: 8px; }
+    #propList li { margin-bottom: 8px; display:flex; align-items:center; cursor:pointer; }
+    #propList li img{ width:50px; height:auto; margin-left:auto; border-radius:3px; }
     #searchBox { width: 100%; padding: 4px 6px; margin-top: 10px; }
     .mapboxgl-popup {
       max-width: 300px;
@@ -75,9 +76,9 @@
       <h3 style="margin-top:0">Notes</h3>
       <div id="notes">Add your project notes here.</div>
       <hr/>
-      <h3>Properties (chronological)</h3>
-      <ul id="propList"></ul>
+      <h3>Jobs</h3>
       <input id="searchBox" type="text" placeholder="Search..." />
+      <ul id="propList"></ul>
   </div>
   <script>
     /* ===== CONFIG ===== */
@@ -149,25 +150,31 @@
             popupHtml += '</ul>';
           }
 
-          chronological.push(primary);
+          chronological.push({row: primary, marker: null});
 
           const hasJob = primary.Job_Type && primary.Job_Type.trim() !== "";
           const markerColor = hasJob ? "#d95f02" : "#1e90ff"; // orange if job type present, blue otherwise
-          new mapboxgl.Marker({ color: markerColor })
+          const marker = new mapboxgl.Marker({ color: markerColor })
             .setLngLat([lon, lat])
             .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(popupHtml))
             .addTo(map);
+
+          chronological[chronological.length-1].marker = marker;
         });
 
         // build chronological list in sidebar
-        chronological.sort((a,b)=> Number(a['Fiscal Year']) - Number(b['Fiscal Year']));
+        chronological.sort((a,b)=> Number(a.row['Fiscal Year']) - Number(b.row['Fiscal Year']));
         const listEl = document.getElementById('propList');
-        chronological.forEach(row => {
+        chronological.forEach(item => {
+          const row = item.row;
           const li=document.createElement('li');
-          li.innerHTML = `<strong>${row['Fiscal Year']}</strong> - ${row.Client}${row.Job_Type ? ' ('+row.Job_Type+')' : ''}`;
+          let htmlText = `<span><strong>${row['Fiscal Year']}</strong> - ${row.Client}${row.Job_Type ? ' ('+row.Job_Type+')' : ''}</span>`;
+          if(row.Redfin_Image){ htmlText += `<img src="${row.Redfin_Image}"/>`; }
+          li.innerHTML = htmlText;
           li.dataset.search = `${row.Client} ${row['Fiscal Year']} ${row.Full_Address}`.toLowerCase();
           li.onclick = () => {
-             map.flyTo({center: [parseFloat(row.Longitude), parseFloat(row.Latitude)], zoom: 14});
+             item.marker.togglePopup();
+             map.flyTo({center: item.marker.getLngLat(), zoom: 14});
           };
           listEl.appendChild(li);
         });

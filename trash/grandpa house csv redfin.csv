@@ -320,48 +320,48 @@ Fiscal Year,Client,Job_Type,Repeat_Customer,Full_Address,Latitude,Longitude,Redf
 1994,Marilyn Webber,,True,"13825 NW Laidlaw, Portland, OR",45.5566803,-122.819311,https://www.redfin.com/OR/Portland/13825-NW-Laidlaw-Rd-97229/home/26672488,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/473/genMid.13072473_4.jpg
 1994,Ron Stephenson,,True,"3150 SW Hampshire, Portland, OR",45.52124,-122.7144051,https://www.redfin.com/OR/Portland/3150-SW-Hampshire-St-97205/home/26437000,https://maps.googleapis.com/maps/api/streetview?channel=mb-pdp-publicrecord&location=3150+SW+Hampshire+St%2C+Portland%2C+OR+97205&size=1072x488&source=outdoor&client=gme-redfin&signature=RndzW6TQQKnvmk5b-bVW8EpXKbE=
 1995,Marilyn Webber,,True,"13825 NW Laidlaw, Portland, OR",45.5566803,-122.819311,https://www.redfin.com/OR/Portland/13825-NW-Laidlaw-Rd-97229/home/26672488,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/473/genMid.13072473_4.jpg
-1995,Tucker Maxon Oral School,,True,"2860 SE Holgate Blvd, Portland, OR",45.4899916,-122.6358071,,
-1995,Bob and Becky Kalez,,False,"2862 NW Cumberland, Portland, OR",45.5295883,-122.7096174,,
-1995,Tabor Heights United Church,Garage,True,SE 61st and Stark,45.5195286841863,-122.60016987069,,
-1995,Greg Wentworth,,False,"2864 SW Champlain Dr, Portland, OR",45.5214793,-122.7089284,,
-1995,Ralph Markewitz,,True,"3220 SW Fairmont, Portland, OR",45.515232,-122.6783853,,
-1995,Victor Stibolt,,True,"2865 SW Champlain Dr, Portland, OR",45.521477,-122.708517,,
+1995,Tucker Maxon Oral School,,True,"2860 SE Holgate Blvd, Portland, OR",45.4899916,-122.6358071,https://www.redfin.com/OR/Portland/2860-SE-Holgate-Blvd-97202/home/26303525,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1995,Bob and Becky Kalez,,False,"2862 NW Cumberland, Portland, OR",45.5295883,-122.7096174,https://www.redfin.com/OR/Portland/2862-NW-Cumberland-Rd-97210/home/26428298,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/449/genMid.22406449_1.jpg
+1995,Tabor Heights United Church,Garage,True,SE 61st and Stark,45.5195286841863,-122.60016987069,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1995,Greg Wentworth,,False,"2864 SW Champlain Dr, Portland, OR",45.5214793,-122.7089284,https://www.redfin.com/OR/Portland/2864-SW-Champlain-Dr-97205/home/25738765,https://ssl.cdn-redfin.com/photo/84/bigphoto/903/476734903_3.jpg
+1995,Ralph Markewitz,,True,"3220 SW Fairmont, Portland, OR",45.515232,-122.6783853,https://www.redfin.com/OR/Portland/3220-SW-Fairmount-Blvd-97239/home/26552546,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/054/genMid.24261054_A.jpg
+1995,Victor Stibolt,,True,"2865 SW Champlain Dr, Portland, OR",45.521477,-122.708517,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
 1995,Shirley Semler,,True,,,,,
-1996,Jim Crabbe,,True,"1135 SW Myrtle Ct, Portland, OR",45.5092532,-122.6905922,,
-1996,Carl Lindgren,,False,"10395 SW Kable , Tigard, OR",45.4094023,-122.7841343,,
-1996,Ann Mausshardt,,False,"2537 NW Mildred, Portland, OR",45.5253902,-122.7037873,,
-1996,Dick Rogers,,False,"3411 SW 44th , Portland, OR",45.4985248,-122.7229998,,
-1997,Hank Grootendorst,,False,"1862 Oak Knoll Ct, Lake Oswego, OR",45.4122666,-122.6950586,,
-1997,Dean Holloman,,False,"26 SE 61st , Portland, OR",45.5224448,-122.6008045,,
-1997,Jackie Paulson,,True,"3151 SW Fairmount, Portland, OR",45.4883631,-122.6963696,,
-1997,10-Plex,,False,"SE 17th Lynn, Portland, OR",45.4894202,-122.6484073,,
-1998,Jackie Paulson,Remodel,True,"3151 SW Fairmount, Portland, OR",45.4883631,-122.6963696,,
-1998,Diane Plumridge,Remodel,False,"5540 SE Hawthorne, Portland, OR",45.5115574,-122.605946,,
-1999,Tucker Maxon Oral School,,True,"2860 SE Holgate Blvd, Portland, OR",45.4899916,-122.6358071,,
+1996,Jim Crabbe,,True,"1135 SW Myrtle Ct, Portland, OR",45.5092532,-122.6905922,https://www.redfin.com/OR/Portland/1135-SW-Myrtle-Ct-97201/home/25866060,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/553/genMid.216738553_4.jpg
+1996,Carl Lindgren,,False,"10395 SW Kable , Tigard, OR",45.4094023,-122.7841343,https://www.redfin.com/OR/Portland/10395-SW-Kable-St-97224/home/26634891,https://maps.googleapis.com/maps/api/streetview?channel=mb-pdp-publicrecord&location=10395+SW+Kable+St%2C+Portland%2C+OR+97224&size=1072x488&source=outdoor&client=gme-redfin&signature=-mzVw1b_QfUS10WzXz6HvkMeuII=
+1996,Ann Mausshardt,,False,"2537 NW Mildred, Portland, OR",45.5253902,-122.7037873,https://www.redfin.com/OR/Portland/2537-NW-Mildred-St-97210/home/25766230,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/413/genMid.24376413_A.jpg
+1996,Dick Rogers,,False,"3411 SW 44th , Portland, OR",45.4985248,-122.7229998,https://www.redfin.com/OR/Portland/3411-SW-44th-Ave-97221/home/26519064,https://ssl.cdn-redfin.com/photo/84/bigphoto/667/24363667_0.jpg
+1997,Hank Grootendorst,,False,"1862 Oak Knoll Ct, Lake Oswego, OR",45.4122666,-122.6950586,https://www.redfin.com/OR/Lake-Oswego/1862-Oak-Knoll-Ct-97034/home/25944010,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1997,Dean Holloman,,False,"26 SE 61st , Portland, OR",45.5224448,-122.6008045,https://www.redfin.com/OR/Portland/26-SE-61st-Ave-97215/home/26300189,https://ssl.cdn-redfin.com/photo/84/bigphoto/962/15198962_3.jpg
+1997,Jackie Paulson,,True,"3151 SW Fairmount, Portland, OR",45.4883631,-122.6963696,https://www.redfin.com/OR/Portland/3153-SW-Fairmount-Blvd-97239/home/26329616,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1997,10-Plex,,False,"SE 17th Lynn, Portland, OR",45.4894202,-122.6484073,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1998,Jackie Paulson,Remodel,True,"3151 SW Fairmount, Portland, OR",45.4883631,-122.6963696,https://www.redfin.com/OR/Portland/3284-SW-Fairmount-Blvd-97239/home/25810233,https://ssl.cdn-redfin.com/photo/84/bigphoto/842/22000842_1.jpg
+1998,Diane Plumridge,Remodel,False,"5540 SE Hawthorne, Portland, OR",45.5115574,-122.605946,https://www.redfin.com/OR/Portland/5540-SE-Hawthorne-Blvd-97215/home/26320930,https://ssl.cdn-redfin.com/photo/84/bigphoto/242/15327242_1.jpg
+1999,Tucker Maxon Oral School,,True,"2860 SE Holgate Blvd, Portland, OR",45.4899916,-122.6358071,https://www.redfin.com/OR/Portland/2860-SE-Holgate-Blvd-97202/home/26303525,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
 1999,Paulson Tennis Court,,False,,,,,
-1999,Lloyd and Colleen West,,True,"1700 Ridgecrest, Lake Oswego, OR",45.4185532,-122.6938785,,
-2000,Ken and Lynne Finch,,False,2966 nw Telshire terrace beaverton or,45.5405777,-122.8389062,,
+1999,Lloyd and Colleen West,,True,"1700 Ridgecrest, Lake Oswego, OR",45.4185532,-122.6938785,https://redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+2000,Ken and Lynne Finch,,False,2966 nw Telshire terrace beaverton or,45.5405777,-122.8389062,https://www.redfin.com/OR/Beaverton/2966-NW-Telshire-Ter-97006/home/26581010,https://maps.googleapis.com/maps/api/streetview?channel=mb-pdp-publicrecord&location=2966+NW+Telshire+Ter%2C+Beaverton%2C+OR+97006&size=1072x488&source=outdoor&client=gme-redfin&signature=yKqp-AAygb2qjt0waxzDl4t4w58=
 2000,Paulson,,True,,,,,
-2000,Ron Stephenson,,True,"3150 SW Hampshire, Portland, OR",45.52124,-122.7144051,,
+2000,Ron Stephenson,,True,"3150 SW Hampshire, Portland, OR",45.52124,-122.7144051,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
 2002,Kaplan,,False,,,,,
-2002,Blaine Kozak,,True,"4522 SW Greenhills Way, Portland, OR",45.5014329,-122.724364,,
-2002,Herman Moore,,False,"825 SW Capri Ct, Beaverton , OR",45.5138817,-122.8137202,,
+2002,Blaine Kozak,,True,"4522 SW Greenhills Way, Portland, OR",45.5014329,-122.724364,https://www.redfin.com/OR/Portland/4522-SW-Greenhills-Way-97221/home/26362111,https://maps.googleapis.com/maps/api/streetview?channel=mb-pdp-publicrecord&location=4522+SW+Greenhills+Way%2C+Portland%2C+OR+97221&size=1072x488&source=outdoor&client=gme-redfin&signature=8aXz1Mtc5W-2AoCYyDPzUzuIFA4=
+2002,Herman Moore,,False,"825 SW Capri Ct, Beaverton , OR",45.5138817,-122.8137202,https://www.redfin.com/OR/Beaverton/825-SW-Capri-Ct-97005/home/26629293,https://maps.googleapis.com/maps/api/streetview?channel=mb-pdp-publicrecord&location=825+SW+Capri+Ct%2C+Beaverton%2C+OR+97005&size=1072x488&source=outdoor&client=gme-redfin&signature=DqkhHNbHqs6UNVJqZdlJTUyqVDA=
 2002,Paulson,,True,,,,,
 2002,Hal Saltzman,,False,,,,,
-2002,Ron Stephenson,,True,"3150 SW Hampshire, Portland, OR",45.52124,-122.7144051,,
-2003,Evie Brim,,False,"6715 SW Yamhill, Portland, OR",45.5200248,-122.6850079,,
-2003,Marvin Doering,,False,"1853 SE Elliott, Portland, OR",45.5097538,-122.6484514,,
-2003,Sue Nye,,False,"20455 NW Phillippi Rd, Hillsboro, OR",45.520137,-122.9898308,,
+2002,Ron Stephenson,,True,"3150 SW Hampshire, Portland, OR",45.52124,-122.7144051,https://www.redfin.com/OR/Portland/3150-SW-Hampshire-St-97205/home/26437000,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+2003,Evie Brim,,False,"6715 SW Yamhill, Portland, OR",45.5200248,-122.6850079,https://www.redfin.com/county/2327/OR/Clackamas-County/new-listings/page-4,https://ssl.cdn-redfin.com/system_files/media/1122254_JPG/genDesktopMapHomeCardUrl/item_1.jpg
+2003,Marvin Doering,,False,"1853 SE Elliott, Portland, OR",45.5097538,-122.6484514,https://www.redfin.com/OR/Portland/1853-SE-Elliott-Ave-97214/home/26507232,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/354/genMid.19542354_1.jpg
+2003,Sue Nye,,False,"20455 NW Phillippi Rd, Hillsboro, OR",45.520137,-122.9898308,https://www.redfin.com/OR/Hillsboro/20455-NW-Phillips-Rd-97124/home/28565961,https://ssl.cdn-redfin.com/photo/84/bigphoto/311/23533311_0.jpg
 2003,Edwards,,False,,,,,
-2003,Jackie Paulson,,True,"3151 SW Fairmount, Portland, OR",45.4883631,-122.6963696,,
+2003,Jackie Paulson,,True,"3151 SW Fairmount, Portland, OR",45.4883631,-122.6963696,https://www.redfin.com/OR/Portland/3153-SW-Fairmount-Blvd-97239/home/26329616,https://maps.googleapis.com/maps/api/streetview?channel=mb-pdp-publicrecord&location=3153+SW+Fairmount+Blvd%2C+Portland%2C+OR+97239&size=1072x488&source=outdoor&client=gme-redfin&signature=U6U6htE2sLZJbh7wIONbp7jB_Eg=
 2004,Paulson,,True,,,,,
-2004,Brim,Exterior,True,"6666 SE Yamhill , Portland, OR",45.5159308,-122.5944814,,
-2004,Tucker Maxon Oral School,,True,"2860 SE Holgate Blvd, Portland, OR",45.4899916,-122.6358071,,
-2004,Brunner,,False,"1701 SW Stephenson, Portland, OR",45.4409516,-122.6959317,,
-2004,Blaine Kozak,,True,"4522 SW Greenhills Way, Portland, OR",45.5014329,-122.724364,,
-2004,Lloyd and Colleen West,,True,"1700 Ridgecrest, Lake Oswego, OR",45.4185532,-122.6938785,,
-2005,Jackie Paulson,,True,"3151 SW Fairmount, Portland, OR",45.4883631,-122.6963696,,
-2005,Jim Geres,,False,"4003 SW Vacuma, Portland, OR",45.4422352,-122.7182328,,
+2004,Brim,Exterior,True,"6666 SE Yamhill , Portland, OR",45.5159308,-122.5944814,https://www.redfin.com/OR/Portland/6666-SE-Yamhill-St-97215/home/26403291,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+2004,Tucker Maxon Oral School,,True,"2860 SE Holgate Blvd, Portland, OR",45.4899916,-122.6358071,https://www.redfin.com/OR/Portland/2860-SE-Holgate-Blvd-97202/home/26303525,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+2004,Brunner,,False,"1701 SW Stephenson, Portland, OR",45.4409516,-122.6959317,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+2004,Blaine Kozak,,True,"4522 SW Greenhills Way, Portland, OR",45.5014329,-122.724364,https://www.redfin.com/OR/Portland/4522-SW-Greenhills-Way-97221/home/26362111,https://maps.googleapis.com/maps/api/streetview?channel=mb-pdp-publicrecord&location=4522+SW+Greenhills+Way%2C+Portland%2C+OR+97221&size=1072x488&source=outdoor&client=gme-redfin&signature=8aXz1Mtc5W-2AoCYyDPzUzuIFA4=
+2004,Lloyd and Colleen West,,True,"1700 Ridgecrest, Lake Oswego, OR",45.4185532,-122.6938785,https://redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+2005,Jackie Paulson,,True,"3151 SW Fairmount, Portland, OR",45.4883631,-122.6963696,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+2005,Jim Geres,,False,"4003 SW Vacuma, Portland, OR",45.4422352,-122.7182328,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
 2005,Chris Rodegerts,,False,,,,,
 2006,Tom Brim,,False,,,,,
 2006,Teamsters,,False,,,,,

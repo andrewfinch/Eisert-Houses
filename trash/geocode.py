@@ -19,7 +19,7 @@ from typing import Optional, Tuple  # Added for type annotations compatible with
 CSV_IN   = "Grandpa-Houses main.csv"
 CSV_OUT  = "Grandpa-Houses geocoded.csv"
 ADDR_COL = "Full_Address"          # change if your column name differs
-API_KEY  = "AIzaSyAM-vwtDSZ-0jkjjZ13QehwedwErp0I6x0"  # MUST be set for Google geocoding
+API_KEY  = " "  # MUST be set for Google geocoding
 PAUSE_BETWEEN_CALLS = 1.0          # seconds (friendly for free services like Nominatim)
 # ----------------------------------------------------------------
 
