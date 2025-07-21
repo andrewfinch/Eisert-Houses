@@ -11,7 +11,54 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
   <style>
     body { margin: 0; padding: 0; }
-    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    #map { position: absolute; top: 50px; bottom: 0; width: 100%; }
+    /* Top bar */
+    #topbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      background: #333;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      padding: 0 12px;
+      z-index: 10;
+    }
+    #topbar button {
+      background: #c22;
+      border: none;
+      color: #fff;
+      padding: 6px 12px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    #topbar h1 { margin:0; font-size:18px; }
+
+    /* Sidebar */
+    #sidebar {
+      position: fixed;
+      top: 50px;
+      right: 0;
+      width: 320px;
+      bottom: 0;
+      background: #fafafa;
+      box-shadow: -2px 0 6px rgba(0,0,0,0.2);
+      overflow-y: auto;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+      z-index: 9;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    #sidebar.open { transform: translateX(0); }
+    #notes { margin-bottom: 10px; }
+    #propList { list-style: none; padding: 0; margin: 0; }
+    #propList li { margin-bottom: 8px; }
+    #searchBox { width: 100%; padding: 4px 6px; margin-top: 10px; }
     .mapboxgl-popup {
       max-width: 300px;
       font: 12px/18px 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -19,7 +66,19 @@
   </style>
 </head>
 <body>
+  <div id="topbar">
+    <h1>Delmer's Jobs</h1>
+    <button id="infoBtn" style="position:absolute; right:12px">More Info &gt;</button>
+  </div>
   <div id="map"></div>
+  <div id="sidebar">
+      <h3 style="margin-top:0">Notes</h3>
+      <div id="notes">Add your project notes here.</div>
+      <hr/>
+      <h3>Properties (chronological)</h3>
+      <ul id="propList"></ul>
+      <input id="searchBox" type="text" placeholder="Search..." />
+  </div>
   <script>
     /* ===== CONFIG ===== */
     // Replace with your public Mapbox access token (OK to expose on GitHub Pages)
@@ -35,6 +94,10 @@
     });
 
     map.addControl(new mapboxgl.NavigationControl());
+
+    // Sidebar toggle
+    const sidebar = document.getElementById('sidebar');
+    document.getElementById('infoBtn').onclick = () => sidebar.classList.toggle('open');
 
     /* ===== LOAD CSV & ADD MARKERS ===== */
     Papa.parse(encodeURI(CSV_PATH), {
@@ -56,6 +119,7 @@
           groups[client].push(row);
         });
 
+        const chronological = [];
         Object.values(groups).forEach(records => {
           const primary = records[0];
           const lat = parseFloat(primary.Latitude);
@@ -64,7 +128,7 @@
           bounds.extend([lon, lat]);
 
           let popupHtml = `<strong>${primary.Client}</strong><br/>`;
-          popupHtml += `<div>Fiscal Year: ${primary['Fiscal Year']}</div>`;
+          popupHtml += `<div>Year: ${primary['Fiscal Year']}</div>`;
           if (primary.Job_Type) popupHtml += `<div>Job Type: ${primary.Job_Type}</div>`;
           const gLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(primary.Full_Address)}`;
           popupHtml += `<div><a href="${gLink}" target="_blank">${primary.Full_Address}</a></div>`;
@@ -78,12 +142,14 @@
           }
 
           if (records.length > 1) {
-            popupHtml += '<hr/><em>Other Occurrences:</em><ul>';
+            popupHtml += '<hr/><em>Other jobs here:</em><ul>';
             records.slice(1).forEach(r => {
-              popupHtml += `<li>${r['Fiscal Year']} – ${r.Job_Type || ''} – ${r.Full_Address}</li>`;
+              popupHtml += `<li>${r['Fiscal Year']}${r.Job_Type ? ' – ' + r.Job_Type : ''}</li>`;
             });
             popupHtml += '</ul>';
           }
+
+          chronological.push(primary);
 
           const hasJob = primary.Job_Type && primary.Job_Type.trim() !== "";
           const markerColor = hasJob ? "#d95f02" : "#1e90ff"; // orange if job type present, blue otherwise
@@ -91,6 +157,27 @@
             .setLngLat([lon, lat])
             .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(popupHtml))
             .addTo(map);
+        });
+
+        // build chronological list in sidebar
+        chronological.sort((a,b)=> Number(a['Fiscal Year']) - Number(b['Fiscal Year']));
+        const listEl = document.getElementById('propList');
+        chronological.forEach(row => {
+          const li=document.createElement('li');
+          li.innerHTML = `<strong>${row['Fiscal Year']}</strong> - ${row.Client}${row.Job_Type ? ' ('+row.Job_Type+')' : ''}`;
+          li.dataset.search = `${row.Client} ${row['Fiscal Year']} ${row.Full_Address}`.toLowerCase();
+          li.onclick = () => {
+             map.flyTo({center: [parseFloat(row.Longitude), parseFloat(row.Latitude)], zoom: 14});
+          };
+          listEl.appendChild(li);
+        });
+
+        // search filter
+        document.getElementById('searchBox').addEventListener('input', function(){
+           const q = this.value.toLowerCase();
+           listEl.childNodes.forEach(li=>{
+              li.style.display = li.dataset.search.includes(q) ? '' : 'none';
+           });
         });
 
         // Fit map to all markers if at least one exists
