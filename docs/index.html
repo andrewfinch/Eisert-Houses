@@ -69,10 +69,21 @@
           const gLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(primary.Full_Address)}`;
           popupHtml += `<div><a href="${gLink}" target="_blank">${primary.Full_Address}</a></div>`;
 
+          // Optional Redfin image & link columns in CSV (Redfin_URL, Redfin_Image)
+          if (primary.Redfin_URL) {
+            popupHtml += `<div style="margin-top:6px"><a href="${primary.Redfin_URL}" target="_blank">See listing on Redfin</a></div>`;
+            if (primary.Redfin_Image) {
+              popupHtml += `<img src="${primary.Redfin_Image}" alt="Listing photo" style="width:100%;margin-top:4px;border-radius:3px;"/>`;
+            }
+          }
+
           if (records.length > 1) {
-            popupHtml += '<hr/><em>Other Occurrences:</em><ul>';
+            popupHtml += '<hr/><em>Other Jobs:</em><ul>';
             records.slice(1).forEach(r => {
-              popupHtml += `<li>${r['Fiscal Year']} – ${r.Job_Type || ''} – ${r.Full_Address}</li>`;
+              const year = r['Fiscal Year'];
+              const client = r.Client || '';
+              const jt = r.Job_Type || '';
+              popupHtml += `<li>${year} – ${client}${jt ? ' – ' + jt : ''}</li>`;
             });
             popupHtml += '</ul>';
           }
