@@ -1,87 +1,87 @@
 Fiscal Year,Client,Job_Type,Repeat_Customer,Full_Address,Latitude,Longitude,Redfin_URL,Redfin_Image
-1959,Ted Bloom,,False,"3561 SW Jerald St, Portland, OR",45.496017,-122.7139904,,
-1959,Ralph Cox,,False,"1815 SE Wilmot , Portland, OR",45.3885502,-122.6174578,,
-1959,Kenneth Ouderkirk,,False,"10460 SE Cresthill Rd, Happy Valley, OR",45.4472392,-122.5413844,,
-1959,Eldon Brobst,,False,"1617 SW Midvale Dr, Portland, OR",45.4303085,-122.6603613,,
-1960,Howard Pohrman,,False,"10323 NE Tillamook, Portland, OR",45.5378813,-122.5565328,,
-1960,Boy Scouts of America,,False,"3811 SW Barbur Blvd, Portland, OR",45.4955932,-122.6784437,,
-1960,Thomas Goldsmith,,False,"3620 Lakeview Blvd, Lake Oswego, OR",45.4074674,-122.713982,,
+1959,Ted Bloom,,False,"3561 SW Jerald St, Portland, OR",45.496017,-122.7139904,https://www.redfin.com/OR/Portland/3561-SW-Jerald-Ct-97221/home/26488130,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/153/genMid.189641153_0.jpg
+1959,Ralph Cox,,False,"1815 SE Wilmot , Portland, OR",45.3885502,-122.6174578,https://www.redfin.com/OR/Portland/18415-SE-Wilmot-St-97267/home/25950404,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1959,Kenneth Ouderkirk,,False,"10460 SE Cresthill Rd, Happy Valley, OR",45.4472392,-122.5413844,https://www.redfin.com/OR/Happy-Valley/10460-SE-Cresthill-Rd-97086/home/25849781,https://ssl.cdn-redfin.com/photo/84/bigphoto/770/14568770_1.jpg
+1959,Eldon Brobst,,False,"1617 SW Midvale Dr, Portland, OR",45.4303085,-122.6603613,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1960,Howard Pohrman,,False,"10323 NE Tillamook, Portland, OR",45.5378813,-122.5565328,https://www.redfin.com/OR/Portland/103-NE-Tillamook-St-97212/home/26674410,https://ssl.cdn-redfin.com/photo/rent/e9bdb6dd-1634-43bf-af8a-61b6692c8749/bigphoto/0_1.jpg
+1960,Boy Scouts of America,,False,"3811 SW Barbur Blvd, Portland, OR",45.4955932,-122.6784437,https://www.redfin.com/OR/Portland/3811-SW-Baird-St-97219/home/26548448,https://ssl.cdn-redfin.com/photo/84/bigphoto/305/625079305_6.jpg
+1960,Thomas Goldsmith,,False,"3620 Lakeview Blvd, Lake Oswego, OR",45.4074674,-122.713982,https://www.redfin.com/OR/Lake-Oswego/3620-Lakeview-Blvd-97035/home/25909595,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
 1960,Norman Janzer,,False,"01601 SW Carey Lane, Portland, OR",45.4495347,-122.662601,,
-1960,Palmers Maple Shop,,False,"7332 SE Powell, Portland, OR",45.4972316,-122.5873078,,
-1960,Sean's Drive Inn,,True,"5420 NE 42nd, Portland, OR",45.5622693,-122.6200336,,
-1960,Stupfel Clinic,,False,"NE 62nd & Halsey, Portland, OR",45.5337086,-122.5995679,,
+1960,Palmers Maple Shop,,False,"7332 SE Powell, Portland, OR",45.4972316,-122.5873078,https://www.redfin.com/OR/Portland/7332-SE-157th-Ave-97236/home/26609383,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1960,Sean's Drive Inn,,True,"5420 NE 42nd, Portland, OR",45.5622693,-122.6200336,https://www.redfin.com/OR/Portland/5920-NE-42nd-Ave-97218/unit-3/home/183784687,https://ssl.cdn-redfin.com/photo/84/bigphoto/576/23334576_2.jpg
+1960,Stupfel Clinic,,False,"NE 62nd & Halsey, Portland, OR",45.5337086,-122.5995679,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
 1961,Dr. Blake Dental Clinic,,False,,,,,
-1961,Dr Marshall & Chavingy,,False,"425 NW 23rd Ave, Portland, OR",45.5260183,-122.6986518,,
-1961,Wilcox Estates,,False,"3644 SW 48th Pl, Portland, OR",45.4968408,-122.7261272,,
-1962,E.W. Caswell,,False,"1000 SW Oak Knoll Ct, Lake Oswego, OR",45.4126165,-122.6948442,,
-1962,Robert Strickland,,False,"11557 SW 19th, Portland, OR",45.441548,-122.6974529,,
-1962,Weigel Clinic,,True,"740 NW Murray Blvd, Portland, OR",45.5248791,-122.8146216,,
-1962,Gurganus Restaurant,,False,"NW 21st & Irving, Portland, OR",45.5277337,-122.6944889,,
-1962,Richard Montag,,False,"5575 NW 137th, Portland, OR",45.5596515,-122.8189845,,
-1962,Montavilla Animal Clinic,,True,"7714 SE Stark , Portland, OR",45.5188941,-122.5839217,,
-1963,Rockwood Animal Clinic,,True,"18110 SE Division, Portland, OR",45.5042518,-122.4766949,,
-1963,Lloyd B Rosenfield,,False,"4512 SW Downsview Ct, Portland, OR",45.4974928,-122.7236128,,
-1963,RG Montgomery,,False,"RT 1 Box 877, Wilsonville, OR",45.3029344,-122.7726687,,
-1963,Clifford McDuffee,,False,"4180 SW 99th, Beaverton , OR",45.48992,-122.7780793,,
-1963,Henry Oseran,,True,"3909 SW Jerald Ct, Portland, OR",45.4946247,-122.7173093,,
-1963,Bill Wayman,,True,"9439 NE Sacremento , Portland, OR",45.5394783,-122.5656083,,
-1964,Warner Wyttenberg,,False,"12095 NW Lovejoy, Portland, OR",45.5304767,-122.8014305,,
-1964,Mable Parker,,False,"9936 SW McMillan , Beaverton , OR",45.491344,-122.7797904,,
-1964,Walter Parker,,False,"9615 SW Omara, Tigard, OR",45.4210406,-122.7762159,,
-1965,Mervin and Lucille Soloman,,True,"4124 SW 40th, Portland, OR",45.4932064,-122.718127,,
-1965,Frank Hood,,False,"3255 SW Evergreen Lane, Portland, OR",45.5157615,-122.712807,,
-1966,Central Building,,False,"520 SW 10th, Portland, OR",45.5209261,-122.6809269,,
-1966,James Cole,,False,"1525 SW Westwood, Portland, OR",45.4845642,-122.6937728,,
-1965,Tik Tok Cleaners,,False,"642 N State St , Lake Oswego, OR",45.4222608,-122.6625381,,
-1966,Engleman,Remodel,True,"3548 SW Lakeview , Lake Oswego, OR",45.395544,-122.7370539,,
-1966,Luther Memorial Church,,False,"4800 NE 72nd Ave, Portland, OR",45.5577633,-122.5887128,,
+1961,Dr Marshall & Chavingy,,False,"425 NW 23rd Ave, Portland, OR",45.5260183,-122.6986518,https://www.redfin.com/OR/Portland/2121-NW-23rd-Ave-97210/home/25765200,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/867/genMid.13513867_1.jpg
+1961,Wilcox Estates,,False,"3644 SW 48th Pl, Portland, OR",45.4968408,-122.7261272,https://www.redfin.com/OR/Portland/3644-SW-48th-Pl-97221/home/26504551,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1962,E.W. Caswell,,False,"1000 SW Oak Knoll Ct, Lake Oswego, OR",45.4126165,-122.6948442,https://www.redfin.com/city/8712/OR/Hillsboro/amenity/single+level+home,https://ssl.cdn-redfin.com/photo/84816/undefined449380816_0.jpg
+1962,Robert Strickland,,False,"11557 SW 19th, Portland, OR",45.441548,-122.6974529,https://www.redfin.com/OR/Portland/11547-SW-19th-Ave-97219/home/26656008,https://ssl.cdn-redfin.com/photo/84/bigphoto/186/23137186_0.jpg
+1962,Weigel Clinic,,True,"740 NW Murray Blvd, Portland, OR",45.5248791,-122.8146216,https://www.redfin.com/OR/Portland/679-NW-118th-Ave-97229/unit-105/home/26650489,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/656/genMid.22236656_1.jpg
+1962,Gurganus Restaurant,,False,"NW 21st & Irving, Portland, OR",45.5277337,-122.6944889,https://www.redfin.com/OR/Portland/2112-NW-Irving-St-97210/home/167654708,https://maps.googleapis.com/maps/api/streetview?channel=mb-pdp-publicrecord&location=2112+NW+Irving+St%2C+Portland%2C+OR+97210&size=1072x488&source=outdoor&client=gme-redfin&signature=f9YjuKynfLiD6KaBaQ6AfoUdAEk=
+1962,Richard Montag,,False,"5575 NW 137th, Portland, OR",45.5596515,-122.8189845,https://www.redfin.com/OR/Portland/5575-NW-137th-Ave-97229/home/26655181,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1962,Montavilla Animal Clinic,,True,"7714 SE Stark , Portland, OR",45.5188941,-122.5839217,https://www.redfin.com/OR/Portland/7714-SE-Main-St-97215/home/25842561,https://ssl.cdn-redfin.com/photo/84/bigphoto/739/22080739_1.jpg
+1963,Rockwood Animal Clinic,,True,"18110 SE Division, Portland, OR",45.5042518,-122.4766949,https://www.redfin.com/OR/Portland/11803-SE-Division-St-97266/unit-26/home/26357820,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/546/genMid.24363546_0.jpg
+1963,Lloyd B Rosenfield,,False,"4512 SW Downsview Ct, Portland, OR",45.4974928,-122.7236128,https://www.redfin.com/OR/Portland/4500-SW-Downs-View-Ct-97221/home/26328646,https://maps.googleapis.com/maps/api/streetview?channel=mb-pdp-publicrecord&location=4500+SW+Downs+View+Ct%2C+Portland%2C+OR+97221&size=1072x488&source=outdoor&client=gme-redfin&signature=4SMCkzolrNf2oV6I4X1C5OPKOQU=
+1963,RG Montgomery,,False,"RT 1 Box 877, Wilsonville, OR",45.3029344,-122.7726687,https://www.redfin.com/city/30773/OR/Wilsonville,https://ssl.cdn-redfin.com/photo/84168/undefined685443168_0.jpg
+1963,Clifford McDuffee,,False,"4180 SW 99th, Beaverton , OR",45.48992,-122.7780793,https://www.redfin.com/OR/Beaverton/4180-SW-99th-Ave-97005/home/25740223,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1963,Henry Oseran,,True,"3909 SW Jerald Ct, Portland, OR",45.4946247,-122.7173093,https://www.redfin.com/OR/Portland/3909-SW-Jerald-Ct-97221/home/26597572,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1963,Bill Wayman,,True,"9439 NE Sacremento , Portland, OR",45.5394783,-122.5656083,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1964,Warner Wyttenberg,,False,"12095 NW Lovejoy, Portland, OR",45.5304767,-122.8014305,https://www.redfin.com/OR/Portland/12095-NW-Lovejoy-St-97229/home/25779636,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1964,Mable Parker,,False,"9936 SW McMillan , Beaverton , OR",45.491344,-122.7797904,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1964,Walter Parker,,False,"9615 SW Omara, Tigard, OR",45.4210406,-122.7762159,https://www.redfin.com/OR/Portland/9615-SW-Mara-Ct-97224/home/26590559,https://ssl.cdn-redfin.com/photo/84/bigphoto/859/23422859_0.jpg
+1965,Mervin and Lucille Soloman,,True,"4124 SW 40th, Portland, OR",45.4932064,-122.718127,https://www.redfin.com/OR/Portland/4124-SW-40th-Pl-97221/home/26477008,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/473/genMid.21276473_3.jpg
+1965,Frank Hood,,False,"3255 SW Evergreen Lane, Portland, OR",45.5157615,-122.712807,https://www.redfin.com/OR/Portland/3255-SW-Evergreen-Ln-97205/home/26496795,https://maps.googleapis.com/maps/api/streetview?channel=mb-ldp-publicrecord&location=3255+SW+Evergreen+Ln%2C+Portland%2C+OR+97205&size=1072x488&source=outdoor&client=gme-redfin&signature=rpWOHuv-tuKHm5NSik_HbLL3aks=
+1966,Central Building,,False,"520 SW 10th, Portland, OR",45.5209261,-122.6809269,https://www.redfin.com/neighborhood/554751/OR/Portland/Northwest-Portland,https://ssl.cdn-redfin.com/system_files/media/1121742_JPG/genDesktopMapHomeCardUrl/item_39.jpg
+1966,James Cole,,False,"1525 SW Westwood, Portland, OR",45.4845642,-122.6937728,https://www.redfin.com/OR/Portland/1525-SW-Westwood-Ct-97239/home/25827742,https://ssl.cdn-redfin.com/photo/84/bigphoto/470/14220470_2.jpg
+1965,Tik Tok Cleaners,,False,"642 N State St , Lake Oswego, OR",45.4222608,-122.6625381,https://www.redfin.com/OR/Lake-Oswego/667-3rd-St-97034/home/25981816,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1966,Engleman,Remodel,True,"3548 SW Lakeview , Lake Oswego, OR",45.395544,-122.7370539,https://www.redfin.com/neighborhood/155985/OR/Lake-Oswego/Lakeview-Summit,https://ssl.cdn-redfin.com/photo/84477/undefined210651477_0.jpg
+1966,Luther Memorial Church,,False,"4800 NE 72nd Ave, Portland, OR",45.5577633,-122.5887128,https://www.redfin.com/OR/Portland/4800-NE-72nd-Ave-97218/home/26370066,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
 1966,Dave Eheler,,False,"11390 SE Lenore, Happy Valley, OR",45.441979,-122.5463251,,
-1966,Ron Gotcher,,True,"4155 SW Downsview Ct, Portland, OR",45.4979944,-122.7204072,,
-1966,George Jackson,,False,"2423 SW Seymour Dr , Portland, OR",45.4896455,-122.7019394,,
-1966,Lake Grove Christian  Church,,True,"15751 SW Quarry Dr , Lake Oswego, OR",45.4192504,-122.6629863,,
-1966,Del's Conv. Home,,True,"315 NE Russet St, Portland, OR",45.5781543,-122.6622921,,
-1966,John Hagen,,False,"10627 SW Hood Ave, Portland, OR",45.4483213,-122.6747264,,
-1966,Jim Yoes,,False,"35 SW 93rd Ave, Portland, OR",45.5194436,-122.7730895,,
-1967,OJ Wilson,,False,"2925 SW Ridgewood Ave, Portland, OR",45.4987902,-122.7522993,,
-1967,Tabor Heights United Church,,False,"SE 61st and Stark, Portland, OR",45.5195286841863,-122.60016987069,,
-1967,William Troudt,,False,"10630 SW Hood Ave, Portland, OR",45.4483632,-122.6741846,,
-1967,Weigel Clinic,,True,"740 NW Murray Blvd, Portland, OR",45.5248791,-122.8146216,,
-1967,Gordon Dobbin,,False,"4143 SW Downsview Court, Portland, OR",45.4982751,-122.7201954,,
-1968,Petter Moe,,False,"4440 SW Hillside Dr, Portland, OR",45.4994358,-122.7231063,,
-1968,Vernon Hubbard,,False,"SW Hubbard Lane, Portland, OR",45.515232,-122.6783853,,
-1967,Dave Vimont,,False,"1929 SE Risley, Milwaukie, OR",45.4052426,-122.6414405,,
+1966,Ron Gotcher,,True,"4155 SW Downsview Ct, Portland, OR",45.4979944,-122.7204072,https://www.redfin.com/OR/Portland/4155-SW-Downs-View-Ct-97221/home/26319458,https://maps.googleapis.com/maps/api/streetview?channel=mb-ldp-publicrecord&location=4155+SW+Downs+View+Ct%2C+Portland%2C+OR+97221&size=1072x488&source=outdoor&client=gme-redfin&signature=mgxYUW0YhzOpbaw94sX_dgGhjzs=
+1966,George Jackson,,False,"2423 SW Seymour Dr , Portland, OR",45.4896455,-122.7019394,https://www.redfin.com/OR/Portland/2423-SW-Seymour-Dr-97239/home/26458844,https://ssl.cdn-redfin.com/photo/84/bigphoto/944/22586944_1.jpg
+1966,Lake Grove Christian  Church,,True,"15751 SW Quarry Dr , Lake Oswego, OR",45.4192504,-122.6629863,https://redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1966,Del's Conv. Home,,True,"315 NE Russet St, Portland, OR",45.5781543,-122.6622921,https://www.redfin.com/real-estate-agents/michael-morris,https://ssl.cdn-redfin.com/v584.2.0/images/logos/redfin-icon-standard-red-100.png
+1966,John Hagen,,False,"10627 SW Hood Ave, Portland, OR",45.4483213,-122.6747264,https://www.redfin.com/OR/Portland/10627-S-Hood-Ave-97219/home/26400425,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1966,Jim Yoes,,False,"35 SW 93rd Ave, Portland, OR",45.5194436,-122.7730895,https://www.redfin.com/OR/Portland/3595-SW-93rd-Ave-97225/home/26639813,https://ssl.cdn-redfin.com/photo/84/bigphoto/937/22463937_4.jpg
+1967,OJ Wilson,,False,"2925 SW Ridgewood Ave, Portland, OR",45.4987902,-122.7522993,https://www.redfin.com/OR/Portland/2925-SW-Ridgewood-Ave-97225/home/25867620,https://ssl.cdn-redfin.com/photo/84/bigphoto/295/21291295_1.jpg
+1967,Tabor Heights United Church,,False,"SE 61st and Stark, Portland, OR",45.5195286841863,-122.60016987069,https://www.redfin.com/OR/Portland/113-SE-61st-Ave-97215/home/26413403,https://ssl.cdn-redfin.com/photo/84/bigphoto/407/23554407_0.jpg
+1967,William Troudt,,False,"10630 SW Hood Ave, Portland, OR",45.4483632,-122.6741846,https://www.redfin.com/OR/Portland/10630-S-Hood-Ave-97219/home/188621321,https://ssl.cdn-redfin.com/photo/84/bigphoto/366/7018366_2.jpg
+1967,Weigel Clinic,,True,"740 NW Murray Blvd, Portland, OR",45.5248791,-122.8146216,https://www.redfin.com/county/3076/WA/Clark-County,https://ssl.cdn-redfin.com/photo/84340/undefined181709340_0.jpg
+1967,Gordon Dobbin,,False,"4143 SW Downsview Court, Portland, OR",45.4982751,-122.7201954,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1968,Petter Moe,,False,"4440 SW Hillside Dr, Portland, OR",45.4994358,-122.7231063,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1968,Vernon Hubbard,,False,"SW Hubbard Lane, Portland, OR",45.515232,-122.6783853,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1967,Dave Vimont,,False,"1929 SE Risley, Milwaukie, OR",45.4052426,-122.6414405,https://www.redfin.com/OR/Portland/1929-SE-Risley-Ave-97267/home/25994417,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
 1969,Montmore Pool House,,False,,,,,
-1968,Allen Goudy,,False,"1717 SW Summerville, Lake Oswego, OR",45.446137,-122.6599868,,
-1968,BJ Westlund,,False,"16844 Alder Circle, Lake Oswego, OR",45.4036007,-122.710279,,
+1968,Allen Goudy,,False,"1717 SW Summerville, Lake Oswego, OR",45.446137,-122.6599868,https://www.redfin.com/OR/Portland/11717-S-Summerville-Ave-97219/home/26504418,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1968,BJ Westlund,,False,"16844 Alder Circle, Lake Oswego, OR",45.4036007,-122.710279,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
 1968,Juhnke Drug,,False,"8526 SW Terwilliger, Portland, OR",45.4626174,-122.6845138,,
 1968,Bill Fletcher,,False,,,,,
-1968,John Foster,,False,"1516 SE Eton Ln, Milwaukie, OR",45.4501863,-122.6496067,,
-1968,K&K Photo,,True,"8302 SE 13th Ave, Portland, OR",45.4626796,-122.6526434,,
-1969,Norman Klettke,,False,"1315 NE 157th, Portland, OR",45.5325513,-122.5016913,,
-1969,Kenneth Ghiz,,False,"4147 SW Westdale, Portland, OR",45.4965731,-122.7201779,,
-1969,Phillip Zeller,,False,"10933 SW Riverside Dr , Portland, OR",45.4466545,-122.6586499,,
-1969,Harrison,Kitchen Remodel,True,"1532 SE Eton Lane, Milwaukie, OR",45.4502931,-122.6490291,,
-1969,Color West,,False,"6020 SE 45th Ave, Portland, OR",45.4788664,-122.6163316,,
-1970,Harold and Ruth Saltzman,,False,"6130 SW Thomas St , Portland, OR",45.4938955,-122.7402604,,
-1970,John VanYperen,,False,"4854 Altercrest Rd, Milwaukie, OR",45.4226502,-122.6134363,,
-1970,Tabor Heights United Church,Addition,True,SE 61st and Stark,45.5195286841863,-122.60016987069,,
-1970,Fred C Baker,,False,"2020 SE Mulberry Dr , Milwaukie, OR",45.4029022,-122.64124,,
-1970,Foster Road Feed,,False,"10307 SE Foster Rd , Portland, OR",45.4771001,-122.5570689,,
-1970,Tucker Maxon,,True,"2860 SE Holgate Blvd, Portland, OR",45.4899916,-122.6358071,,
-1970,Harrison,Exterior,True,"1532 SE Eton Lane, Milwaukie, OR",45.4502931,-122.6490291,,
-1970,Bob Sells,,True,"10494 SW 62nd, Portland, OR",45.4500967,-122.7382731,,
+1968,John Foster,,False,"1516 SE Eton Ln, Milwaukie, OR",45.4501863,-122.6496067,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1968,K&K Photo,,True,"8302 SE 13th Ave, Portland, OR",45.4626796,-122.6526434,https://www.redfin.com/OR/Portland/8309-SE-13th-Ave-97202/home/40428492,https://maps.googleapis.com/maps/api/streetview?channel=mb-pdp-publicrecord&location=8309+SE+13th+Ave%2C+Portland%2C+OR+97202&size=1072x488&source=outdoor&client=gme-redfin&signature=cygH2bneLG3Jm2SWaIKn9Ai-_vk=
+1969,Norman Klettke,,False,"1315 NE 157th, Portland, OR",45.5325513,-122.5016913,https://www.redfin.com/OR/Portland/1315-NE-157th-Ave-97230/home/26474799,https://ssl.cdn-redfin.com/photo/84/bigphoto/528/21476528_1.jpg
+1969,Kenneth Ghiz,,False,"4147 SW Westdale, Portland, OR",45.4965731,-122.7201779,https://www.redfin.com/OR/Portland/4147-SW-Westdale-Dr-97221/home/25837148,https://maps.googleapis.com/maps/api/streetview?channel=mb-ldp-publicrecord&location=4147+SW+Westdale+Dr%2C+Portland%2C+OR+97221&size=1072x488&source=outdoor&client=gme-redfin&signature=5x9PN99FSLuzDFibGEaPtSf0QY8=
+1969,Phillip Zeller,,False,"10933 SW Riverside Dr , Portland, OR",45.4466545,-122.6586499,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1969,Harrison,Kitchen Remodel,True,"1532 SE Eton Lane, Milwaukie, OR",45.4502931,-122.6490291,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1969,Color West,,False,"6020 SE 45th Ave, Portland, OR",45.4788664,-122.6163316,https://www.redfin.com/OR/Portland/3644-SE-60th-Ave-97206/home/26331861,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1970,Harold and Ruth Saltzman,,False,"6130 SW Thomas St , Portland, OR",45.4938955,-122.7402604,https://www.redfin.com/OR/Portland/6130-SW-Thomas-St-97221/home/26342688,https://maps.googleapis.com/maps/api/streetview?channel=mb-pdp-publicrecord&location=6130+SW+Thomas+St%2C+Portland%2C+OR+97221&size=1072x488&source=outdoor&client=gme-redfin&signature=Hw0LCeC8au2FV99qkehvdosXsGQ=
+1970,John VanYperen,,False,"4854 Altercrest Rd, Milwaukie, OR",45.4226502,-122.6134363,https://www.redfin.com/OR/Portland/4854-SE-Aldercrest-Rd-97222/home/26040496,https://maps.googleapis.com/maps/api/streetview?channel=mb-ldp-publicrecord&location=4854+SE+Aldercrest+Rd%2C+Portland%2C+OR+97222&size=1072x488&source=outdoor&client=gme-redfin&signature=10bs_7ntLPnonvo9OzptcpSDCq0=
+1970,Tabor Heights United Church,Addition,True,SE 61st and Stark,45.5195286841863,-122.60016987069,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1970,Fred C Baker,,False,"2020 SE Mulberry Dr , Milwaukie, OR",45.4029022,-122.64124,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1970,Foster Road Feed,,False,"10307 SE Foster Rd , Portland, OR",45.4771001,-122.5570689,https://www.redfin.com/OR/Portland/10207-SE-Foster-Rd-97266/home/26380853,https://maps.googleapis.com/maps/api/streetview?channel=mb-pdp-publicrecord&location=10207+SE+Foster+Rd%2C+Portland%2C+OR+97266&size=1072x488&source=outdoor&client=gme-redfin&signature=x0jRpS7CL9el0FzaOLaZ-yuLNVY=
+1970,Tucker Maxon,,True,"2860 SE Holgate Blvd, Portland, OR",45.4899916,-122.6358071,https://www.redfin.com/OR/Portland/2860-SE-Holgate-Blvd-97202/home/26303525,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1970,Harrison,Exterior,True,"1532 SE Eton Lane, Milwaukie, OR",45.4502931,-122.6490291,https://www.redfin.com/OR/Portland/1532-SE-Eton-Ln-97222/home/26059960,https://maps.googleapis.com/maps/api/streetview?channel=mb-ldp-publicrecord&location=1532+SE+Eton+Ln%2C+Portland%2C+OR+97222&size=1072x488&source=outdoor&client=gme-redfin&signature=XmwC26S6z95KtAOr0rlnV0E_70I=
+1970,Bob Sells,,True,"10494 SW 62nd, Portland, OR",45.4500967,-122.7382731,https://www.redfin.com/OR/Portland/10494-SW-62nd-Dr-97219/home/178451244,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/398/genMid.12414398_3.jpg
 1970,John Morris,,True,"5033 SW Humphrey Park, Portland, OR",45.5058719,-122.7287742,,
-1970,Woodstock Vet Hospital,,False,"4825 SW SE Woodstock, Portland, OR",45.4788748,-122.6089723,,
-1970,C.A. Barnes,Remodel,False,"2628 SE 51st St , Portland, OR",45.5038515,-122.6097683,,
-1970,Martin Zell,Bath,False,"9650 SW Regal Dr, Portland, OR",45.5020001,-122.7755122,,
-1970,Vollstedt,Remodel,False,"10244 SW Lancaster Rd, Portland, OR",45.451487,-122.6975971,,
+1970,Woodstock Vet Hospital,,False,"4825 SW SE Woodstock, Portland, OR",45.4788748,-122.6089723,https://www.redfin.com/OR/Portland/4825-SE-74th-Ave-97206/home/26393893,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1970,C.A. Barnes,Remodel,False,"2628 SE 51st St , Portland, OR",45.5038515,-122.6097683,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1970,Martin Zell,Bath,False,"9650 SW Regal Dr, Portland, OR",45.5020001,-122.7755122,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1970,Vollstedt,Remodel,False,"10244 SW Lancaster Rd, Portland, OR",45.451487,-122.6975971,https://www.redfin.com/OR/Portland/10244-SW-Lancaster-Rd-97219/home/26474798,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
 1971,Physicians Association of Clackamas County,,True,,,,,
-1971,Allen Boyden,,False,"4175 SW Greenleaf, Portland, OR",45.5033944,-122.7183303,,
-1971,Senn's Drive-In,,True,"423 NE 102nd, Portland, OR",45.5257582,-122.5585817,,
-1971,Earl Smith,Kitchen,False,"2845 NW Cumberland Rd, Portland, OR",45.5304019,-122.7092382,,
-1971,Norman Griffith,,False,"1733 SW Westwood Dr , Portland, OR",45.484709,-122.6911343,,
+1971,Allen Boyden,,False,"4175 SW Greenleaf, Portland, OR",45.5033944,-122.7183303,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1971,Senn's Drive-In,,True,"423 NE 102nd, Portland, OR",45.5257582,-122.5585817,https://www.redfin.com/OR/Gresham/423-NE-Scott-Ave-97030/unit-1/home/143110565,http://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1971,Earl Smith,Kitchen,False,"2845 NW Cumberland Rd, Portland, OR",45.5304019,-122.7092382,https://www.redfin.com/,https://ssl.cdn-redfin.com/vLATEST/images/logos/redfin-logo-square-red-1200.png
+1971,Norman Griffith,,False,"1733 SW Westwood Dr , Portland, OR",45.484709,-122.6911343,https://www.redfin.com/OR/Portland/1733-SW-Westwood-Dr-97239/home/25741291,https://ssl.cdn-redfin.com/photo/84/mbpaddedwide/083/genMid.22221083_2.jpg
 1971,Tucker Maxon,Phase 2,True,,,,,
-1971,Trinity Presbyterian Church,,False,"6435 SW Virginia Ave, Portland, OR",45.477518,-122.6741473,,
+1971,Trinity Presbyterian Church,,False,"6435 SW Virginia Ave, Portland, OR",45.477518,-122.6741473,https://www.redfin.com/OR/Portland/6432-SW-Burlingame-Pl-97239/home/26359020,
 1971,Janor Building,,False,,,,,
 1971,JJ Dulong,,False,"5037 SW Hilltop Lane, Portland, OR",45.5054041,-122.7305566,,
 1971,Stan Marcus,,False,"6255 SW Hamilton Way, Portland, OR",45.4901497,-122.7418059,,

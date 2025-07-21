@@ -78,12 +78,9 @@
           }
 
           if (records.length > 1) {
-            popupHtml += '<hr/><em>Other Jobs:</em><ul>';
+            popupHtml += '<hr/><em>Other Occurrences:</em><ul>';
             records.slice(1).forEach(r => {
-              const year = r['Fiscal Year'];
-              const client = r.Client || '';
-              const jt = r.Job_Type || '';
-              popupHtml += `<li>${year} – ${client}${jt ? ' – ' + jt : ''}</li>`;
+              popupHtml += `<li>${r['Fiscal Year']} – ${r.Job_Type || ''} – ${r.Full_Address}</li>`;
             });
             popupHtml += '</ul>';
           }
