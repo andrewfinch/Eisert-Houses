@@ -66,7 +66,8 @@
           let popupHtml = `<strong>${primary.Client}</strong><br/>`;
           popupHtml += `<div>Fiscal Year: ${primary['Fiscal Year']}</div>`;
           if (primary.Job_Type) popupHtml += `<div>Job Type: ${primary.Job_Type}</div>`;
-          popupHtml += `<div>${primary.Full_Address}</div>`;
+          const gLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(primary.Full_Address)}`;
+          popupHtml += `<div><a href="${gLink}" target="_blank">${primary.Full_Address}</a></div>`;
 
           if (records.length > 1) {
             popupHtml += '<hr/><em>Other Occurrences:</em><ul>';
@@ -76,7 +77,9 @@
             popupHtml += '</ul>';
           }
 
-          new mapboxgl.Marker()
+          const hasJob = primary.Job_Type && primary.Job_Type.trim() !== "";
+          const markerColor = hasJob ? "#d95f02" : "#1e90ff"; // orange if job type present, blue otherwise
+          new mapboxgl.Marker({ color: markerColor })
             .setLngLat([lon, lat])
             .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(popupHtml))
             .addTo(map);
