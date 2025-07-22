@@ -141,6 +141,10 @@
               popupHtml += `<img src="${primary.Redfin_Image}" alt="Listing photo" style="width:100%;margin-top:4px;border-radius:3px;"/>`;
             }
           }
+          // Append Google Street View image (if our CSV has Street_Image_URL)
+          if (primary.Street_Image_URL) {
+              popupHtml += `<img src="${primary.Street_Image_URL}" alt="Street View" style="width:100%;margin-top:4px;border-radius:3px;"/>`;
+          }
 
           if (records.length > 1) {
             popupHtml += '<hr/><em>Other jobs here:</em><ul>';
@@ -170,6 +174,7 @@
           const li=document.createElement('li');
           let htmlText = `<span><strong>${row['Fiscal Year']}</strong> - ${row.Client}${row.Job_Type ? ' ('+row.Job_Type+')' : ''}</span>`;
           if(row.Redfin_Image){ htmlText += `<img src="${row.Redfin_Image}"/>`; }
+          if(row.Street_Image_URL){ htmlText += `<img src="${row.Street_Image_URL}"/>`; }
           li.innerHTML = htmlText;
           li.dataset.search = `${row.Client} ${row['Fiscal Year']} ${row.Full_Address}`.toLowerCase();
           li.onclick = () => {
