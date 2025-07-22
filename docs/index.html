@@ -92,12 +92,15 @@
     /* ===== INIT MAP ===== */
     const map = new mapboxgl.Map({
       container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v11',
+      style: 'mapbox://styles/mapbox/satellite-streets-v12',
       center: [-122.67, 45.52], // initial center on Portland
       zoom: 10,
     });
 
     map.addControl(new mapboxgl.NavigationControl());
+
+    // Track the currently open popup so we can close it when another opens
+    let currentPopup = null;
 
     // Sidebar toggle
     const sidebar = document.getElementById('sidebar');
@@ -137,6 +140,9 @@
           const gLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(primary.Full_Address)}`;
           popupHtml += `<div><a href="${gLink}" target="_blank">${primary.Full_Address}</a></div>`;
 
+          const zLink = `https://www.zillow.com/homes/${encodeURIComponent(primary.Full_Address)}`;
+          popupHtml += `<div style="margin-top:4px"><a href="${zLink}" target="_blank">Search on Zillow</a></div>`;
+
           // Optional Redfin image & link columns in CSV (Redfin_URL, Redfin_Image)
           if (primary.Redfin_URL) {
             popupHtml += `<div style="margin-top:6px"><a href="${primary.Redfin_URL}" target="_blank">See listing on Redfin</a></div>`;
@@ -159,11 +165,23 @@
 
           chronological.push({row: primary, marker: null});
 
-          const hasJob = primary.Job_Type && primary.Job_Type.trim() !== "";
-          const markerColor = hasJob ? "#d95f02" : "#1e90ff"; // orange if job type present, blue otherwise
+          const markerColor = "#1e90ff"; // uniform marker color
+          const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(popupHtml);
+
+          // Ensure only one popup is open at a time
+          popup.on('open', () => {
+            if (currentPopup && currentPopup !== popup) {
+              currentPopup.remove();
+            }
+            currentPopup = popup;
+          });
+          popup.on('close', () => {
+            if (currentPopup === popup) currentPopup = null;
+          });
+
           const marker = new mapboxgl.Marker({ color: markerColor })
             .setLngLat([lon, lat])
-            .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(popupHtml))
+            .setPopup(popup)
             .addTo(map);
 
           chronological[chronological.length-1].marker = marker;
@@ -181,6 +199,7 @@
           li.innerHTML = htmlText;
           li.dataset.search = `${row.Client} ${row['Fiscal Year']} ${row.Full_Address}`.toLowerCase();
           li.onclick = () => {
+             // Trigger opening the marker's popup (closing any previous via the 'open' handler)
              item.marker.togglePopup();
              map.flyTo({center: item.marker.getLngLat(), zoom: 14});
           };
