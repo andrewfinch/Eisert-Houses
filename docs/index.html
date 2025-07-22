@@ -58,7 +58,13 @@
     #notes { margin-bottom: 10px; }
     #propList { list-style: none; padding: 0; margin: 0; }
     #propList li { margin-bottom: 8px; display:flex; align-items:center; cursor:pointer; }
-    #propList li img{ width:100px; height:auto; margin-left:auto; border-radius:3px; }
+    #propList li img{
+      width:200px;
+      height:133px; /* 3:2 ratio */
+      object-fit:cover;
+      margin-left:auto;
+      border-radius:3px;
+    }
     #searchBox { width: 100%; padding: 4px 6px; margin-top: 10px; }
     .mapboxgl-popup {
       max-width: 300px;
@@ -170,7 +176,8 @@
           const row = item.row;
           const li=document.createElement('li');
           let htmlText = `<span><strong>${row['Fiscal Year']}</strong> - ${row.Client}${row.Job_Type ? ' ('+row.Job_Type+')' : ''}</span>`;
-          if(row.Street_Image_URL){ htmlText += `<img src="${row.Street_Image_URL}"/>`; }
+          const thumb = row.Redfin_Image ? row.Redfin_Image : (row.Street_Image_URL || '');
+          if(thumb){ htmlText += `<img src="${thumb}"/>`; }
           li.innerHTML = htmlText;
           li.dataset.search = `${row.Client} ${row['Fiscal Year']} ${row.Full_Address}`.toLowerCase();
           li.onclick = () => {
